@@ -544,14 +544,86 @@
               <div class="row justify-content-center gy-4">
                   <!-- Centering the row -->
 
-                  <div class="col-xl-3 col-md-6 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-                      <div class="member text-center">
-                          <!-- Center aligning content -->
-                          <img src="assets/img/team/team1.jpeg" class="img-fluid" alt="">
-                          <h4>Deekshith K Gowda</h4>
-                          <span><b>Website Owner</b></span>
-                      </div>
-                  </div><!-- End Team Member -->
+                  <!-- Team Member -->
+<div class="col-xl-3 col-md-6 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+    <div class="member text-center">
+        <img src="assets/img/team/team1.jpeg" class="img-fluid" alt="">
+        <h4>Deekshith K Gowda</h4>
+        <span><b>Website Owner</b></span>
+
+        <!-- Contact Button with Custom Color -->
+        <button type="button" class="btn custom-btn mt-2" data-bs-toggle="modal" data-bs-target="#contactModal">
+            Contact for Website Creation
+        </button>
+    </div>
+</div><!-- End Team Member -->
+
+<!-- Contact Modal -->
+<div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="contactModalLabel">Contact for Website Creation</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p><b>Name:</b> Deekshith K Gowda</p>
+                <p><b>Email:</b> <a href="mailto:deekshithkrishnagowda@gmail.com">deekshithkrishnagowda@gmail.com</a></p> 
+                <p><b>Phone:</b> <a href="tel:+917829062529">+91 78290 62529</a></p> 
+
+                <!-- Instagram Link -->
+                <p><b>Instagram:</b> 
+                    <a href="https://www.instagram.com/yourusername" target="_blank" class="social-link">
+                        <i class="fab fa-instagram"></i> Follow on Instagram
+                    </a>
+                </p>
+
+                <!-- Portfolio Link -->
+                <p><b>Portfolio:</b> 
+                    <a href="https://yourportfolio.com" target="_blank" class="social-link">
+                        <i class="fas fa-globe"></i> Visit My Portfolio
+                    </a>
+                </p>
+              <p><b>Services:</b> Website Development, Hosting, Custom Domains</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Custom CSS -->
+<style>
+    .custom-btn {
+        background-color: #008374 !important; /* Custom button color */
+        color: white !important; /* White text */
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        font-weight: bold;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    .custom-btn:hover {
+        background-color: #00695c !important; /* Darker shade on hover */
+    }
+
+    .social-link {
+        color: #008374;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .social-link:hover {
+        color: #00695c;
+        text-decoration: underline;
+    }
+</style>
+
+<!-- FontAwesome for Icons -->
+<script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+
 
               </div>
           </div>
